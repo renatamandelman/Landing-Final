@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="assets/style.css" rel="stylesheet">
+    <title> Ahorcado </title>
+</head>
+
+<body>
+    <header>
+    </header>
+
+    <section class="sectionDefault">
+        <div>
+            <h1 class="title">
+                ¿Qué es el ahorcado y cómo se juega?
+            </h1>
+        </div>
+        <div class="sectionDefaultDiv">
+            <p>
+                El juego del ahorcado es un popular pasatiempo en el que un jugador trata de adivinar una palabra o
+                frase
+                al descubrir las letras que la componen. La dinámica principal consiste en intentar adivinar las letras
+                correctas
+                antes de agotar un número determinado de intentos, representados comúnmente por la figura de un
+                ahorcado.
+
+            
+            </p>
+        </div>
+   
+        <div id="lista">
+            <ol>
+                <li>
+                  
+                    <p> Elige un nivel de dificultad: Bajo, Medio o Alto. </p>
+                </li>
+                <li>
+                    
+                    <p> Tu tarea es adivinar la palabra ingresando una letra a la vez. </p>
+                </li>
+                <li>
+                  
+                    <p> Si aciertas una letra, ganarás 2 puntos y la letra se mostrará en el lugar correcto de la
+                        palabra.
+                        Si fallas, se dibujará una parte del cuerpo del ahorcado. </p>
+                </li>
+                <li>
+                  
+                    <p> Si adivinas la palabra, ganarás 20 puntos adicionales y el tablero se reiniciará con una nueva
+                        palabra.</p>
+                </li>
+                <li>
+                 
+                    <p> El objetivo del juego es sumar 100 puntos. Si llegas a esa cantidad, ¡ganarás! </p>
+                </li>
+
+            </ol>
+        </div>
+    </section>
+
+
+    <section id="half-image" class="sectionDefault">
+        <img src="https://i.gifer.com/Af6V.gif" alt="" class="image">
+        <div >
+            <h1 style="margin-bottom:1em;text-align: center;">Accedé al juego y empezá a ganar</h1>
+            <button><a href="https://ahorcado-final.netlify.app/">Juega Ahora</a></button>
+
+        </div>
+    </section>
+
+    <section class="sectionDefault">
+        <h1 class="title">Contactános!</h1>
+
+        <form required class="input-wrapper">
+            <input id="nombre" type="text" placeholder="Nombre" required>
+            <input type="date" id="date" placeholder="Fecha de nacimiento" required>
+
+            <input type="email" id="mail" placeholder="Mail">
+
+            <div class="container">
+                <div class="custom-radio">
+                    <input type="radio" id="18" name="tabs" checked="">
+                    <label class="radio-label" for="18">
+                        <div class="radio-circle"></div>
+                        <span class="radio-text">18 - 24 años</span>
+                    </label>
+                    <input type="radio" id="25" name="tabs">
+                    <label class="radio-label" for="25">
+                        <div class="radio-circle"></div>
+                        <span class="radio-text">25 - 34 años</span>
+                    </label>
+                    <input type="radio" id="35" name="tabs">
+                    <label class="radio-label" for="35">
+                        <div class="radio-circle"></div>
+                        <span class="radio-text">+35 años</span>
+                    </label>
+                </div>
+            </div>
+
+
+
+            <textarea placeholder="Contanos tu experiencia o sugerencias" required></textarea>
+            <div class="checkbox-wrapper-37">
+                <input type="checkbox" name="checkbox" id="terms-conditions" />
+                <label for="terms-conditions" class="terms-label">
+                    <svg class="checkbox-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="path-1-inside-1_476_5-37" fill="white">
+                            <rect width="200" height="200"></rect>
+                        </mask>
+                        <rect width="200" height="200" class="checkbox-box" stroke-width="40"
+                            mask="url(#path-1-inside-1_476_5-37)"></rect>
+                        <path class="checkbox-tick" d="M52 111.018L76.9867 136L149 64" stroke-width="15"></path>
+                    </svg>
+                    <span class="label-text">Acepto términos y condiciones</span>
+                </label>
+            </div>
+
+            <div>
+                <div class="checkbox-wrapper-37">
+                    <input type="checkbox" name="checkbox" id="terms-checkbox-37" />
+                    <label for="terms-checkbox-37" class="terms-label">
+                        <svg class="checkbox-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <mask id="path-1-inside-1_476_5-37" fill="white">
+                                <rect width="200" height="200"></rect>
+                            </mask>
+                            <rect width="200" height="200" class="checkbox-box" stroke-width="40"
+                                mask="url(#path-1-inside-1_476_5-37)"></rect>
+                            <path class="checkbox-tick" d="M52 111.018L76.9867 136L149 64" stroke-width="15"></path>
+                        </svg>
+                        <span class="label-text">Aceptar envío de notificaciones sobre la actualización del juego o
+                            lanzamiento de nuevos juegos</span>
+                    </label>
+                </div>
+
+            </div>
+            <button type="submit" style="width:15%;">Submit</button>
+
+        </form>
+    </section>
+
+
+
+
+</body>
+
+</html>
